@@ -1,0 +1,68 @@
+/* 全体 */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1115;
+  color: #eaeaea;
+}
+
+/* ヘッダー */
+header {
+  padding: 24px;
+  background: #161a22;
+  border-bottom: 1px solid #222;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+.subtitle {
+  margin-top: 6px;
+  color: #9aa4b2;
+  font-size: 0.95rem;
+}
+
+/* メイン */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* カード */
+.card {
+  background: #161a22;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 1px #1f2430 inset;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+/* リスト */
+ul {
+  padding-left: 20px;
+}
+
+/* リンク */
+a {
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.85rem;
+}
